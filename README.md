@@ -195,5 +195,5 @@ This repository is intended to demonstrate practical QA automation skills that a
 Berlin, Germany
 
 - GitHub: https://github.com/anshi43
-- LinkedIn: add-your-link-here
+- LinkedIn: https://www.linkedin.com/in/ankitmavani/
 - Email: mavaniankit09@gmail.com
