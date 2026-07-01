@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Playwright UI Testing Demo</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">QA Automation Portfolio Project</p>
+      <h1>Playwright UI Testing Demo</h1>
+      <p class="lead">
+        A job-focused end-to-end test automation project built with Playwright and TypeScript.
+        It demonstrates Page Object Model structure, smoke and regression coverage,
+        shared authentication state, cross-browser execution, and CI integration.
+      </p>
+      <div class="links">
+        <a href="https://github.com/anshi43/playwright-ui-testing-demo" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Project highlights</h2>
+      <ul>
+        <li>Playwright with TypeScript</li>
+        <li>Smoke and regression test suites</li>
+        <li>Page Object Model implementation</li>
+        <li>Reusable auth state for logged-in flows</li>
+        <li>Cross-browser coverage: Chromium, Firefox, WebKit</li>
+        <li>HTML reporting and GitHub Actions CI</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Covered scenarios</h2>
+      <ul>
+        <li>Valid and invalid login validation</li>
+        <li>Add product to cart</li>
+        <li>Cart verification</li>
+        <li>Product sorting by price and name</li>
+        <li>Full checkout flow</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Project structure</h2>
+      <pre><code>playwright-ui-testing-demo/
+├── .github/workflows/
+├── docs/
+├── pages/
+├── playwright/.auth/
+├── tests/
+│   ├── smoke/
+│   ├── regression/
+│   └── auth.setup.ts
+├── utils/
+├── playwright.config.ts
+└── README.md</code></pre>
+    </section>
+
+    <section>
+      <h2>Run locally</h2>
+      <pre><code>npm install
+npx playwright install
+npx playwright test
+npx playwright show-report</code></pre>
+    </section>
+  </main>
+</body>
+</html>
