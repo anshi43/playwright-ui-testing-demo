@@ -178,7 +178,7 @@ A small project page is published with GitHub Pages to provide a quick overview 
 - covered scenarios
 - run commands
 
-Project page: `add-your-github-pages-link-here`
+Project page: `(https://anshi43.github.io/playwright-ui-testing-demo/)`
 
 ## Why This Project Matters
 
