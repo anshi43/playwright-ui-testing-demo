@@ -1,7 +1,7 @@
 # Playwright UI Testing Demo
 
 [![CI]
-https://github.com/OWNER/REPO/actions/workflows/WORKFLOW_FILE.yml
+[https://github.com/OWNER/REPO/actions/workflows/WORKFLOW_FILE.yml](https://github.com/anshi43/playwright-ui-testing-demo/blob/main/.github/workflows/playwright.yml)
 
 An end-to-end test automation project built with **Playwright** and **TypeScript**.
 
