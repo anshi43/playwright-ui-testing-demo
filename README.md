@@ -1,6 +1,7 @@
 # Playwright UI Testing Demo
 
-[![CI](https://github.com/OWNER/REPO/actions/workflows/WORKFLOW_FILE.yml/badge.svg?branch=main)](https://github.com/OWNER/REPO/actions/workflows/WORKFLOW_FILE.yml)
+[![CI]
+https://github.com/OWNER/REPO/actions/workflows/WORKFLOW_FILE.yml
 
 An end-to-end test automation project built with **Playwright** and **TypeScript**.
 
