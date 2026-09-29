@@ -98,7 +98,7 @@ playwright-ui-testing-demo/
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/anshi43/playwright-ui-testing-demo.git](https://github.com/anshi43/playwright-ui-testing-demo.git)
+git clone https://github.com/anshi43/playwright-ui-testing-demo.git
 cd playwright-ui-testing-demo
 ```
 
