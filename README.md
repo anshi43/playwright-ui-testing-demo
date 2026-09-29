@@ -1,6 +1,6 @@
 # Playwright UI Testing Demo
 
-A job-focused end-to-end test automation project built with **Playwright** and **TypeScript**.
+An end-to-end test automation project built with **Playwright** and **TypeScript**.
 
 This repository demonstrates how to design a maintainable UI automation framework using:
 - Page Object Model (POM)
@@ -11,16 +11,11 @@ This repository demonstrates how to design a maintainable UI automation framewor
 - GitHub Actions CI
 - GitHub Pages project documentation
 
-## Project Purpose
+## What This Project Does
 
-This project was created as a portfolio repository for QA Automation / Software Test Engineer roles.
+This project automates key end-to-end user flows for a web application using Playwright and TypeScript.
 
-The goal is to show practical experience in:
-- building structured end-to-end tests
-- separating page logic from test logic
-- validating real user flows
-- running tests across multiple browsers
-- integrating automated UI tests into CI
+It provides a structured UI automation framework for validating common browser-based scenarios such as login, product interaction, sorting, cart validation, and checkout. The framework is designed to support maintainable test design, reusable page interactions, cross-browser execution, and CI-based automated test runs.
 
 ## Tech Stack
 
@@ -103,7 +98,7 @@ playwright-ui-testing-demo/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/anshi43/playwright-ui-testing-demo.git
+git clone [https://github.com/anshi43/playwright-ui-testing-demo.git](https://github.com/anshi43/playwright-ui-testing-demo.git)
 cd playwright-ui-testing-demo
 ```
 
@@ -152,13 +147,13 @@ This project includes a GitHub Actions workflow that:
 - runs the full test suite
 - uploads the Playwright HTML report as an artifact
 
-This helps demonstrate how UI automation can be integrated into a continuous integration workflow.
+This enables the framework to run automatically in a continuous integration workflow.
 
 ## Authentication Strategy
 
 For logged-in flows, the framework uses a dedicated Playwright setup test to authenticate once and save session state with `storageState`.
 
-This reduces duplicated login steps in every regression test and makes the suite cleaner and more stable.
+This reduces duplicated login steps in regression tests and keeps the suite cleaner, faster, and more stable.
 
 ## Reporting and Debugging
 
@@ -173,27 +168,27 @@ These features help investigate flaky or failing tests more efficiently.
 ## Project Documentation
 
 A small project page is published with GitHub Pages to provide a quick overview of:
-- project purpose
-- framework structure
+- framework purpose
+- structure
 - covered scenarios
 - run commands
 
-Project page: https://anshi43.github.io/playwright-ui-testing-demo/
+Project page: [https://anshi43.github.io/playwright-ui-testing-demo/](https://anshi43.github.io/playwright-ui-testing-demo/)
 
 ## Why This Project Matters
 
-This repository is intended to demonstrate practical QA automation skills that are directly relevant for industry roles, especially:
-- UI test automation with Playwright
-- framework design with maintainable structure
-- regression coverage for user-critical flows
-- CI-ready automation setup
-- multi-browser validation
+This repository demonstrates:
+- maintainable UI test automation with Playwright
+- reusable framework design using Page Object Model
+- smoke and regression coverage for browser-based user flows
+- cross-browser validation
+- CI-ready automated UI testing
 
 ## Author
 
 **Ankit Mavani**  
 Berlin, Germany
 
-- GitHub: https://github.com/anshi43
-- LinkedIn: https://www.linkedin.com/in/ankitmavani/
-- Email: mavaniankit09@gmail.com
+- GitHub: [https://github.com/anshi43](https://github.com/anshi43)
+- LinkedIn: [https://www.linkedin.com/in/ankitmavani/](https://www.linkedin.com/in/ankitmavani/)
+- Email: [mavaniankit09@gmail.com](mailto:mavaniankit09@gmail.com)
